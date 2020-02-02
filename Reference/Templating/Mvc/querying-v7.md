@@ -42,7 +42,7 @@ The same query structures apply to media:
 
 ## Traversing
 
-All of these extension methods are available on `Umbraco.Core.Models.IPublishedContent` so you can have strongly typed access to all of them with intellisense for both content and media. Additionally, all of these methods are available for the dynamic model representation too. The following methods return `IEnumerable<IPublishedContent>` (or dynamic if you are using @CurrentPage)
+All of the following extension methods of the `Umbraco.Web` namespace are available on `Umbraco.Core.Models.IPublishedContent` so you can have strongly typed access to all of them with intellisense for both content and media. Additionally, all of these methods are available for the dynamic model representation too. The following methods return `IEnumerable<IPublishedContent>` (or dynamic if you are using @CurrentPage)
 
 ```csharp
 Children() // this is the same as using the Children property on the content item.
